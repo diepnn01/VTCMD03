@@ -14,6 +14,7 @@
 		011613EF1DD4A6AE0083A065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011613EE1DD4A6AE0083A065 /* Assets.xcassets */; };
 		011613F21DD4A6AE0083A065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011613F01DD4A6AE0083A065 /* LaunchScreen.storyboard */; };
 		011613FB1DD4A7D90083A065 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011613FA1DD4A7D90083A065 /* SplashViewController.swift */; };
+		5A0469F41DD4ACE6003754B3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0469F31DD4ACE6003754B3 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		011613F11DD4A6AE0083A065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011613F31DD4A6AE0083A065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		011613FA1DD4A7D90083A065 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		5A0469F31DD4ACE6003754B3 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		011613E31DD4A6AE0083A065 /* VTCMD03 */ = {
 			isa = PBXGroup;
 			children = (
+				5A0469F21DD4AC92003754B3 /* result */,
 				011613F91DD4A7BF0083A065 /* splash */,
 				011613E41DD4A6AE0083A065 /* AppDelegate.swift */,
 				011613E61DD4A6AE0083A065 /* ViewController.swift */,
@@ -76,6 +79,14 @@
 				011613FA1DD4A7D90083A065 /* SplashViewController.swift */,
 			);
 			name = splash;
+			sourceTree = "<group>";
+		};
+		5A0469F21DD4AC92003754B3 /* result */ = {
+			isa = PBXGroup;
+			children = (
+				5A0469F31DD4ACE6003754B3 /* ResultViewController.swift */,
+			);
+			name = result;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0469F41DD4ACE6003754B3 /* ResultViewController.swift in Sources */,
 				011613E71DD4A6AE0083A065 /* ViewController.swift in Sources */,
 				011613ED1DD4A6AE0083A065 /* VTCMD03.xcdatamodeld in Sources */,
 				011613E51DD4A6AE0083A065 /* AppDelegate.swift in Sources */,
@@ -318,6 +330,7 @@
 				011613F81DD4A6AE0083A065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
